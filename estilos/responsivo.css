@@ -20,8 +20,8 @@
         height: 440px;
     }
     section div#container > video {
-        height: 150px;
-        padding: 0.5px 0.5px;
+        height: auto;
+        max-width: 100%;
     }
     section#espaço > div#mario-luigi-container > img {
         width: 30%;
