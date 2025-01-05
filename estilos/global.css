@@ -12,7 +12,8 @@ body {
     background-image: linear-gradient(to top, green, red );
     height: 100vh;
     width: 100vw;
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 }
 .menu {
     display: flex;
