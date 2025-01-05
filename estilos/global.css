@@ -74,6 +74,8 @@ section#espaço > div#logo-movie-container > img {
     width: 30%;
 }
 section div#container > video {
+    justify-items: center;
+    align-items: center;
     padding: 0.5px 0.5px;
     height: 200px;
 }
