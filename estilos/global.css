@@ -1,0 +1,83 @@
+@import url(responsivo.css);
+/* Estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    
+    justify-content: center;
+    background-image: linear-gradient(to top, green, red );
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.menu .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu-links li {
+    padding: 10px;
+    margin: 0 15px;
+}
+.menu-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.menu-links a:hover {
+    color: #2afc7b;
+}
+/* Hamburger para mobile */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos responsivos */
+section#espaço {
+    padding: 10px;
+    justify-items: center;
+    margin-top: 40px;
+    overflow: hidden;
+    background-color: black;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
+}
+section#espaço > div#logo-movie-container > img {
+    width: 30%;
+}
+section div#container > video {
+    height: 200px;
+}
+section#espaço > div#mario-luigi-container > img {
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -10%;
+}

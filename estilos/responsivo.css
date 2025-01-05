@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .menu-links {
+        display: none; /* Esconde os links no mobile */
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        padding: 10px ;
+    }
+    .menu-links.active {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+    section#espaço {
+        width: 400px;
+        height: 440px;
+    }
+    section#espaço > div#mario-luigi-container > img {
+        width: 30%;
+        margin-left: 70%;
+        margin-top: 1.1px;
+    }
+}
